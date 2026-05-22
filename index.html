@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailorVerse | Crafted Elegance, Tailored Perfection</title>
+    <!-- Google Fonts: Cormorant Garamond (Luxury Serif) & Montserrat (Modern Sans-Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Tailor<span>Verse</span></a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <nav class="nav-menu">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#process" class="nav-link">Our Process</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#appointment" class="btn btn-gold nav-cta">Book Consultation</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Haute Couture & Bespoke Tailoring</p>
+            <h1 class="hero-title">Crafted Elegance,<br>Tailored Perfection</h1>
+            <p class="hero-description">Experience the art of master craftsmanship. Every stitch tells a story of luxury, precision, and timeless personal style.</p>
+            <div class="hero-actions">
+                <a href="#appointment" class="btn btn-gold">Book Appointment</a>
+                <a href="#gallery" class="btn btn-outline">Explore Collection</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll to Discover</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container grid grid-2">
+            <div class="about-images">
+                <div class="img-wrapper main-img">
+                    <img src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&w=600&q=80" alt="Master Tailor Working">
+                </div>
+                <div class="img-wrapper sub-img">
+                    <img src="https://images.unsplash.com/photo-1598808503746-f34c53b29ef3?auto=format&fit=crop&w=400&q=80" alt="Luxury Fabrics">
+                </div>
+            </div>
+            <div class="about-content">
+                <p class="section-tagline">Our Legacy</p>
+                <h2 class="section-title">The Art of Sartorial Excellence</h2>
+                <p class="section-text">At TailorVerse, we don't merely manufacture suits; we sculpt statements of personal identity. For decades, our studio has merged traditional savile-row methodologies with contemporary structural aesthetics.</p>
+                <p class="section-text">Every silhouette is engineered exclusively to your physiological framework, utilizing premium natural fibers sourced from the world's finest mills in Italy and England.</p>
+                <div class="about-badges">
+                    <div class="badge">
+                        <span class="badge-number">35+</span>
+                        <span class="badge-label">Years Experience</span>
+                    </div>
+                    <div class="badge">
+                        <span class="badge-number">12k</span>
+                        <span class="badge-label">Bespoke Outfits</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SERVICES SECTION -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-tagline">Our Specializations</p>
+                <h2 class="section-title">Bespoke Services</h2>
+                <div class="gold-divider"></div>
+            </div>
+            <div class="grid grid-3">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+                    <h3>Custom Tailoring</h3>
+                    <p>Flawless precision suits, jackets, and trousers mapped completely to your distinct measurements and design choices.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h3>Wedding Suits</h3>
+                    <p>Impeccably detailed tuxedos and morning coats crafted meticulously to command authority on your most significant day.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-shirt"></i></div>
+                    <h3>Luxury Blazers</h3>
+                    <p>Versatile, structured blazers engineered for smart-casual panache or standard corporate boardrooms.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-gem"></i></div>
+                    <h3>Sherwanis</h3>
+                    <p>Royal heirloom traditional wear fusing opulent South Asian fabrics with modern, crisp structural fits.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                    <h3>Master Alterations</h3>
+                    <p>Re-engineering and fine-tuning your existing high-end wardrobe items to guarantee a continuous custom glove fit.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-vest-patches"></i></div>
+                    <h3>Corporate Uniforms</h3>
+                    <p>Sophisticated, wear-resistant fleet attire for premium corporate entities requiring absolute unity in aesthetics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. TAILORING PROCESS -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-tagline">The Journey</p>
+                <h2 class="section-title">The Architectural Process</h2>
+                <div class="gold-divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-event">
+                    <div class="timeline-box">
+                        <span class="step-num">01</span>
+                        <h3>Comprehensive Anatomy Scan</h3>
+                        <p>We extract over 30 distinct physiological points alongside lifestyle evaluations to capture structural nuances.</p>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="timeline-box">
+                        <span class="step-num">02</span>
+                        <h3>Fabric Curation</h3>
+                        <p>Select your base canvas from an exhaustive curation of ultra-fine wools, silks, linens, and internal silks.</p>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="timeline-box">
+                        <span class="step-num">03</span>
+                        <h3>Hand-Cut Stitching</h3>
+                        <p>Our master artisans translate raw data parameters directly onto fabric panels, executing hand-canvas architecture.</p>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="timeline-box">
+                        <span class="step-num">04</span>
+                        <h3>Basted Fitting</h3>
+                        <p>A structural draft fitting allows us to make millimeter corrections onto the garment frame live on your body.</p>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="timeline-box">
+                        <span class="step-num">05</span>
+                        <h3>White-Glove Delivery</h3>
+                        <p>The polished artifact is steamed, encased in custom luggage, and released to your wardrobe for immediate deployment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FASHION GALLERY -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-tagline">Lookbook</p>
+                <h2 class="section-title">The Editorial Gallery</h2>
+                <div class="gold-divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item item-tall">
+                    <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=600&q=80" alt="Bespoke Navy Suit">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h4>The Executive Navy</h4>
+                            <p>Three-Piece Mastery</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80" alt="Premium Blazer Details">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h4>Sartorial Details</h4>
+                            <p>Handcrafted Lapels</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621515454999-a43516115324?auto=format&fit=crop&w=600&q=80" alt="Classic Tuxedo">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h4>The Midnight Tuxedo</h4>
+                            <p>Red Carpet Ready</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item item-wide">
+                    <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1000&q=80" alt="Bespoke Atelier Studio">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h4>The TailorVerse Atelier</h4>
+                            <p>Where Ideas Materialize</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. PRICING SECTION -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-tagline">Clear Investments</p>
+                <h2 class="section-title">Sartorial Tiers</h2>
+                <div class="gold-divider"></div>
+            </div>
+            <div class="grid grid-3">
+                <!-- Tier 1 -->
+                <div class="price-card">
+                    <div class="price-header">
+                        <h4>Essential Cut</h4>
+                        <div class="price-amt">$799</div>
+                        <p>Perfect for sharp everyday utility</p>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fa-solid fa-check"></i> Half-Canvas Structure</li>
+                        <li><i class="fa-solid fa-check"></i> Italian 120s Virgin Wool</li>
+                        <li><i class="fa-solid fa-check"></i> 2 Detailed Anatomy Fittings</li>
+                        <li><i class="fa-solid fa-check"></i> 4-Week Fast Delivery</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> Hand-Stitched Silk Linings</li>
+                    </ul>
+                    <a href="#appointment" class="btn btn-outline btn-block">Select Tier</a>
+                </div>
+                <!-- Tier 2 (Featured) -->
+                <div class="price-card featured">
+                    <div class="featured-badge">Atelier Signature</div>
+                    <div class="price-header">
+                        <h4>Bespoke Masterpiece</h4>
+                        <div class="price-amt">$1,499</div>
+                        <p>The ultimate personal flagship statement</p>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fa-solid fa-check"></i> Full-Canvas Floating Structure</li>
+                        <li><i class="fa-solid fa-check"></i> British Merino & Silk Blends</li>
+                        <li><i class="fa-solid fa-check"></i> Unlimited Precision Fittings</li>
+                        <li><i class="fa-solid fa-check"></i> Personalized Initial Monogramming</li>
+                        <li><i class="fa-solid fa-check"></i> Lifetime Structural Alterations</li>
+                    </ul>
+                    <a href="#appointment" class="btn btn-gold btn-block">Select Tier</a>
+                </div>
+                <!-- Tier 3 -->
+                <div class="price-card">
+                    <div class="price-header">
+                        <h4>Imperial Gallery</h4>
+                        <div class="price-amt">$2,499</div>
+                        <p>Wedding & Heirloom ensembles</p>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fa-solid fa-check"></i> Custom Gold/Silver Thread Work</li>
+                        <li><i class="fa-solid fa-check"></i> Silk Brocades & Heavy Velvets</li>
+                        <li><i class="fa-solid fa-check"></i> Direct Master-Tailor Access</li>
+                        <li><i class="fa-solid fa-check"></i> Coordinated Accessories Pack</li>
+                        <li><i class="fa-solid fa-check"></i> Premium Concierge Home Delivery</li>
+                    </ul>
+                    <a href="#appointment" class="btn btn-outline btn-block">Select Tier</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-tagline">Verified Voices</p>
+                <h2 class="section-title">The Client Experience</h2>
+                <div class="gold-divider"></div>
+            </div>
+            <div class="grid grid-3">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                    <p class="testimonial-text">"The floating canvas configuration fits like a secondary layer of skin. I have abandoned standard off-the-rack luxury labels forever. TailorVerse is unparalleled."</p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Julian Vance">
+                        <div>
+                            <h5>Julian Vance</h5>
+                            <span>Creative Director</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                    <p class="testimonial-text">"Crafting my custom wedding Sherwani through their studio was effortless. The gold-thread alignment was flawless under the reception ballroom lighting."</p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Rohan Mehta">
+                        <div>
+                            <h5>Rohan Mehta</h5>
+                            <span>Tech Venture Capitalist</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                    <p class="testimonial-text">"Their anatomical measurement process is sheer science. They managed to balance my uneven shoulder profile perfectly. Absolute geniuses."</p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=100&q=80" alt="Marcus Sterling">
+                        <div>
+                            <h5>Marcus Sterling</h5>
+                            <span>Corporate Litigator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. APPOINTMENT CTA SECTION -->
+    <section id="appointment" class="appointment-cta">
+        <div class="cta-parallax-bg"></div>
+        <div class="cta-overlay"></div>
+        <div class="cta-content text-center">
+            <h2>Ready to Define Your Profile?</h2>
+            <p>Secure a spot with our Lead Design Consultants for a complimentary structural alignment and sizing roadmap.</p>
+            <a href="#contact" class="btn btn-gold btn-large">Initiate Fitting Session</a>
+        </div>
+    </section>
+
+    <!-- 10. CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container grid grid-2">
+            <div class="contact-meta">
+                <p class="section-tagline">Reach Out</p>
+                <h2 class="section-title">Visit The Atelier</h2>
+                <p class="section-text">Drop by our storefront location or get in touch for custom remote ordering configurations worldwide.</p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Studio Address</h4>
+                            <p>742 Savile Row District, Suite 10, New York, NY 10011</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Direct Reservation Line</h4>
+                            <p>+1 (212) 555-8392</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Digital Concierge</h4>
+                            <p>concierge@tailorverse.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-placeholder">
+                    <!-- Elegant CSS styled dark map block placeholder simulating an embedded dark theme map widget -->
+                    <div class="map-mock">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <p>Interactive Map Engine Embedded Here<br><span>742 Savile Row District, NY</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h3>Request Consultation Layout</h3>
+                <form class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label for="name">Full Legal Name</label>
+                        <input type="text" id="name" placeholder="e.g., Sterling Archer" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="name@domain.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+1 (555) 000-0000" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service-select">Desired Configuration</label>
+                        <select id="service-select">
+                            <option>Bespoke Masterpiece Suit Tier</option>
+                            <option>Wedding Outfit Engineering</option>
+                            <option>Essential Cut Utility Tier</option>
+                            <option>Luxury Blazer / Individual Items</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Sartorial Preferences / Special Notes</label>
+                        <textarea id="notes" rows="4" placeholder="Tell us about the event context or specific cuts you prefer..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold btn-block">Transmit Booking Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top grid grid-4">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Tailor<span>Verse</span></a>
+                    <p>Architects of timeless personal silhouettes and premium luxury clothing statements.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigational Tracks</h4>
+                    <ul>
+                        <li><a href="#">Atelier Home</a></li>
+                        <li><a href="#about">Our Heritage</a></li>
+                        <li><a href="#services">Bespoke Services</a></li>
+                        <li><a href="#gallery">Visual Lookbook</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Assistance Guides</h4>
+                    <ul>
+                        <li><a href="#pricing">Investment Tiers</a></li>
+                        <li><a href="#process">Fitting Roadmap</a></li>
+                        <li><a href="#">Fabric Archives</a></li>
+                        <li><a href="#">Care Protocols</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Atelier Operating Hours</h4>
+                    <p class="hours-p">Tuesday — Saturday<br>10:00 AM — 8:00 PM</p>
+                    <p class="hours-p">Sunday Consultation Hours<br>11:00 AM — 4:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2026 TailorVerse Inc. All Rights Reserved. Crafted with pure architectural design.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
